@@ -21,19 +21,19 @@ class Team
   end
 end
 
-Giants      = Team.new('Giants',67,45,8)           # 引数による初期化
-Tigers      = Team.new('Tigers',60,53,7)           # 引数による初期化
-Dragons     = Team.new('Dragons',60,55,5)         # 引数による初期化
-Baystars    = Team.new('Baystars',56,58,6)       # 引数による初期化
-Carp        = Team.new('Carp',52,56,12)              # 引数による初期化
-Swallows    = Team.new('Swallows',41,69,10)       # 引数による初期化
+giants      = Team.new('Giants',67,45,8)           # 引数による初期化
+tigers      = Team.new('Tigers',60,53,7)           # 引数による初期化
+dragons     = Team.new('Dragons',60,55,5)         # 引数による初期化
+baystars    = Team.new('Baystars',56,58,6)       # 引数による初期化
+carp        = Team.new('Carp',52,56,12)              # 引数による初期化
+swallows    = Team.new('Swallows',41,69,10)       # 引数による初期化
 
-Giants.show_team_result
-Tigers.show_team_result
-Dragons.show_team_result
-Baystars.show_team_result
-Carp.show_team_result
-Swallows.show_team_result
+giants.show_team_result
+tigers.show_team_result
+dragons.show_team_result
+baystars.show_team_result
+carp.show_team_result
+swallows.show_team_result
 
 
 
